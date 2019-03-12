@@ -18,13 +18,21 @@ body{
 }
 
 /*------Web page Tile00-----*/
+
+.section-profile{
+	position: absolute;
+	top: 52%;
+	left:50%;
+	transform: translate(-50%, -50%)
+}
+
 .profile-title{
   position: absolute;
   top: 8%;
   left:50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
-  font-family: cursive;
+  font-family: separate;
   color: #fff;
 }
 
@@ -83,7 +91,7 @@ body{
 }
 .sub-menu-exception a i{
   color: #fff;
-  margin:14px 15px;
+  margin:14px 14px;
 }
 /* end */
 
@@ -92,9 +100,14 @@ body{
   color:#fff;
   display: block;
   float:right;
-  padding:0 1em 0.5em 0;
+  padding:0 0.1em 0.5em 0;
   /* position: relative; */
   font-size: 14px;
+}
+.sub-menu .exception-link i{
+	/*position:relative;*/
+	display:block;
+	padding:0 0.8em 0.5em 0;
 }
 .sub-menu a:first-child:before{
   content: "";
